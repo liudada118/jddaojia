@@ -1,0 +1,15 @@
+.homeMain{
+    max-height: 16.6rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.homeTop{
+    display: flex;
+}
+.home{
+    overflow-x: hidden;
+    /* background-color: #85d1fe; */
+}
+.icy{
+    background-color: #86d0ff;
+}

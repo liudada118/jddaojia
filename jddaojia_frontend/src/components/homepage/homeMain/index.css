@@ -1,0 +1,38 @@
+.homeMain{
+    max-height: 15.6rem;
+    overflow: scroll;
+}
+.content{
+    width: 100%;
+}
+.content img{
+    width: 100%;
+}
+.contentNext{
+    width: 100%;
+}
+.contentNext img{
+    width: 100%;
+}
+.type {
+    width: 100%;
+}
+.type img{
+    width: 100%;
+}
+.discount{
+    display: flex;
+    width: 100%;
+}
+.discount1{
+    flex : 0 0 33%
+}
+.discount1 img{
+    width: 100%;
+}
+.IcyStrikes{
+    width: 100%;
+}
+.IcyStrikes img{
+    width: 100%;
+}

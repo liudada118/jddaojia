@@ -1,0 +1,18 @@
+.discount{
+    padding-top: 0.34rem;
+    padding-left: 0.29rem;
+    padding-right: 0.29rem;
+    width: calc(100% - 0.58rem);
+    background-color: #85d1fe;
+}
+.discount-warpper{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.discount1{
+    flex : 1;
+}
+.discount1 img{
+    width: 100%;
+}
