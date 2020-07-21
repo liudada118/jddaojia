@@ -1,52 +1,53 @@
-.top{
+.addressTop{
     width: 100%;
     position: relative;
     /* min-height: 1rem; */
     /* display: flex; */
 }
-.topImg{
+.addressTopImg{
     width: 100%;
     position: absolute;
     z-index: -3;
+    /* width: ; */
 }
-.topImg img{
+.addressTopImg img{
     width: 100%;
 }
-.address{
+.homeAddress{
     padding-top: 1.1rem;
     display: flex;
     padding-left: 0.29rem;
     padding-right: 0.29rem;
     /* position: relative; */
 }
-.addressInfo{
+.homeAddressInfo{
     display: flex;
     align-items: center;
 }
-.address-img {
+.homeAddress-img {
     width: 0.5rem;
     padding-right: 0.26rem;
 }
-.address-img img{
+.homeAddress-img img{
     width: 100%;
 }
-.addressname{
+.homeAddressname{
     font-size: 0.5rem;
     color: #fff;
 }
-.selector{
+.homeSelector{
     height: 0.16rem;
     padding-left: 0.13rem;
 }
-.selector img{
+.homeSelector img{
     height: 100%;
 }
-.new{
+.homeNew{
     width: 0.62rem;
     /* float: right; */
     position: absolute;
     right: 0.29rem;
 }
-.new img{
+.homeNew img{
     width: 100%;
 }

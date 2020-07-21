@@ -1,0 +1,187 @@
+
+{
+    "ProductName": "大牌免运",
+    "ProductTypes": [
+        {
+            "type" : "Featured",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/124479/33/4131/27189/5ed8ecf3E97d9afae/acd4f259b9ff91e5.png",
+            "name": "精选"
+        },
+        {
+            
+            "type" : "vegetables",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/116874/22/9019/39531/5ed46691E07f73e81/193c6de9d6bf952d.png",
+            "name": "水果蔬菜"
+        },
+        {
+            "type" : "Poultry",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/134972/19/971/25160/5ed466bbE98c68891/990ed0eeb84e0e64.png",
+            "name": "禽鱼肉蛋"
+        },
+        {
+            "type" : "DairyBaking",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/113892/19/8884/30160/5ed466e5Ecfd19a53/0f29f4f1b850d963.png",
+            "name": "乳品烘培"
+        },
+        {
+            "type" : "VegetarianRefrigeration",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/110785/20/11548/30378/5ed46725E739b28da/651040de441f0bbb.png",
+            "name": "素食冷藏"
+        },
+        {
+            "type" : "OilsFood",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/114553/33/8849/26214/5ed46745Ea67d470f/485f1fc7c0abbdc3.png",
+            "name": "粮油副食"
+        },
+        {
+            "type" : "CasualSnacks",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/128109/35/3574/37989/5ed46793E423afb6a/8afbd22ea3514318.png",
+            "name": "休闲零食"
+        },
+        {
+            "type" : "Drinks",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/122761/33/3629/27527/5ed467b9E31d644d1/6645bc9f99ebcb6f.png",
+            "name": "酒水饮料"
+        },
+        {
+            "type" : "PersonalCleaning",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/137067/28/993/20166/5ed467e7Ec96b7a91/d122942be379a285.png",
+            "name": "个护清洁"
+        },
+        {
+            "type" : "PetLife",
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/120162/34/3686/33689/5ed4680dEa9d3144b/02d138c521693a0b.png",
+            "name": "宠物生活"
+        }
+    ],
+    "pageTypeInput": [
+        {
+            "name": "牛奶"
+        },
+        {
+            "name": "冰淇淋"
+        },
+        {
+            "name": "思恋水饺"
+        },
+        {
+            "name": "牙膏"
+        },
+        {
+            "name": "饮料"
+        },
+        {
+            "name": "蔬菜"
+        }
+    ],
+    "ProductArticles" : [
+        {
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+        },{
+            "type" : "CasualSnacks",
+            "img" : "https://img30.360buyimg.com/n6/s240x240_jfs/t1/127452/13/6498/98343/5f0480ffEe67074e2/439bf377277e7db2.jpg",
+            "name" : "胡姬花 古法小榨花生油 400ml",
+            "price" : "￥10",
+            "coupon" : "领五元券",
+            "acticlesShop" : "https://img30.360buyimg.com/vendersettle/s120x120_jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+            "shop" : "Walmart",
+            "shopAddress":"沃尔玛-新建礼步湖大道店",
+            "deliveryFee" : "基础运费¥4"
+        }]
+}

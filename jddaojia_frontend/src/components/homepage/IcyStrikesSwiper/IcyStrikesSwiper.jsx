@@ -26,29 +26,29 @@ export default function IcyStrikesSwiper() {
     }, [])
     return (
         <div className="icySwiper">
-        <div class="swiper-container icySwiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
+        <div className="swiper-container icySwiper-container">
+            <div className="swiper-wrapper">
+                <div className="swiper-slide">
                     <div className="IcyTypeImg">
                         <img src={Icytype1} alt="" />
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div className="swiper-slide">
                     <div className="IcyTypeImg">
                         <img src={Icytype2} alt="" />
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div className="swiper-slide">
                     <div className="IcyTypeImg">
                         <img src={Icytype3} alt="" />
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div className="swiper-slide">
                     <div className="IcyTypeImg">
                         <img src={Icytype4} alt="" />
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div className="swiper-slide">
                     <div className="IcyTypeImg">
                         <img src={Icytype5} alt="" />
                     </div>

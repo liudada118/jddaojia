@@ -8,21 +8,21 @@ import information from '../../../assets/img/information.png'
 
 export default function HomeAddress() {
     return (
-        <div className='top'>
-            <div className="topImg">
+        <div className='addressTop'>
+            <div className="addressTopImg">
                 <img src={topImg} alt="" />
             </div>
-            <div className="address">
-                <div className="addressInfo">
-                    <div className="address-img">
+            <div className="homeAddress">
+                <div className="homeAddressInfo">
+                    <div className="homeAddress-img">
                         <img src={addressImg} alt="" />
                     </div>
-                    <div className="addressname">东华理工大学</div>
-                    <div className="selector">
+                    <div className="homeAddressname">东华理工大学</div>
+                    <div className="homeSelector">
                         <img src={selector} alt="" />
                     </div>
                 </div>
-                <div className="new">
+                <div className="homeNew">
                     <img src={information} alt="" />
                 </div>
             </div>

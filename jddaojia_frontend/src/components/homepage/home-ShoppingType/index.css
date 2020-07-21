@@ -32,6 +32,9 @@
     /* justify-content: center; */
     flex-flow: column;
 }
+.shoppinginfo-warpper{
+    width: 100%;
+}
 .shoppingTypeImg{
     width: 1.26rem;
 }

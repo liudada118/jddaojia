@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useReducer } from 'react';
+import { Link } from 'react-router-dom'
 import typebg from '../../../assets/img/typebg.jpg'
 import type1 from '../../../assets/img/type1.png'
 import type2 from '../../../assets/img/type2.png'
@@ -21,13 +22,116 @@ import type18 from '../../../assets/img/type18.png'
 import type19 from '../../../assets/img/type19.png'
 import './index.css'
 import Swiper from 'swiper';
+import { useState } from 'react';
+import { shoptypeData } from '../../../store/reducers';
 export default function HomeShoppingType() {
+    // console.log(props)
+    const [ShoppingType1] = useState([{
+        key: 1,
+        link: '/channelPage/supermarket',
+        name: '超市',
+        img: type1
+    }, {
+        key: 2,
+        link: '/channelPage/grocery',
+        name: '买菜',
+        img: type2
+    }, {
+        key: 3,
+        link: '/channelPage/flowerGift',
+        name: '鲜花礼品',
+        img: type3
+    }, {
+        key: 4,
+        link: '/channelPage/delivery',
+        name: '送药上门',
+        img: type4
+    }, {
+        key: 5,
+        link: '/channelPage/furniture ',
+        name: '家具时尚',
+        img: type5
+    }, {
+        key: 6,
+        link: '/channelPage/cake',
+        name: '烘培蛋糕',
+        img: type6
+    }, {
+        key: 7,
+        link: '/channelPage/sign ',
+        name: '签到',
+        img: type7
+    }, {
+        key: 8,
+        link: '/channelPage/freshBean',
+        name: '鲜豆庄园',
+        img: type8
+    }, {
+        key: 9,
+        link: '/channelPage/phone',
+        name: '手机',
+        img: type9
+    }, {
+        key: 10,
+        link: '/channelPage/free',
+        name: '0元专区',
+        img: type10
+    },])
+    const [ShoppingType2] = useState([{
+        key: 11,
+        link: '/channelPage/delivery',
+        name: '送药上门',
+        img: type11
+    }, {
+        key: 12,
+        link: '/channelPage/furniture',
+        name: '家具时尚',
+        img: type12
+    }, {
+        key: 13,
+        link: '/channelPage/freeShipping',
+        name: '大牌免运',
+        img: type13
+    }, {
+        key: 14,
+        link: '/channelPage/dailyPick',
+        name: '每日领蛋',
+        img: type14
+    }, {
+        key: 15,
+        link: '/channelPage/recharge',
+        name: '话费充值',
+        img: type15
+    }, {
+        key: 16,
+        link: '/channelPage/phone',
+        name: '手机数码',
+        img: type16
+    }, {
+        key: 17,
+        link: '/channelPage/free',
+        name: '0元专区',
+        img: type17
+    }, {
+        key: 18,
+        link: '/channelPage/errandshop',
+        name: '跑腿代购',
+        img: type18
+    }, {
+        key: 19,
+        link: '/channelPage/announcement',
+        name: '平台公示',
+        img: type19
+    }])
+    
+    
     useEffect(() => {
         new Swiper(".slider-shoppingType", {
             scrollbar: {
                 el: '.shop-scrollbar',
             },
         })
+
     })
     return (
 
@@ -38,151 +142,39 @@ export default function HomeShoppingType() {
             <div className="slider-container slider-shoppingType">
                 <div className="swiper-wrapper">
                     <div className="swiper-slide" >
-                        {/* <img src={swiper1} alt=""  /> */}
                         <div className="shoppingTypes">
                             <div className="shoppingType">
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type1} alt="" />
-                                        <div className="shoppingName">超市</div>
-
-                                    </div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type2} alt="" />
-                                        <div className="shoppingName">买菜</div>
-
-                                    </div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type3} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">鲜花礼品</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type4} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">送药上门</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type5} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">家居时尚</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type6} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">烘培蛋糕</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type7} alt="" />
-                                        <div className="shoppingName">签到</div>
-
-                                    </div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type8} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">鲜豆庄园</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type9} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">手机数码</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type10} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">0元专区</div>
-                                </div>
+                                {ShoppingType1.map((ShoppingType) => {
+                                    return (
+                                        <Link  to={ShoppingType.link} className="shoppinginfo" key={ShoppingType.key}>
+                                            <div>
+                                                <div className="shoppingTypeImg">
+                                                    <img src={ShoppingType.img} alt="" />
+                                                </div>
+                                                <div className="shoppingName">{ShoppingType.name}</div>
+                                            </div>
+                                        </Link>
+                                    )
+                                })}
                             </div>
                         </div>
 
                     </div>
                     <div className="swiper-slide" >
-                        {/* <img src={swiper2} alt="" /> */}
-
                         <div className="shoppingTypes">
                             <div className="shoppingType">
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type11} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">送药上门</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type12} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">家居时尚</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type13} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">大牌免运</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type14} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">每日领蛋</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type15} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">话费充值</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type16} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">手机数码</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type17} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">0元专区</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type18} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">跑腿代购</div>
-                                </div>
-                                <div className="shoppinginfo">
-                                    <div className="shoppingTypeImg">
-                                        <img src={type19} alt="" />
-
-                                    </div>
-                                    <div className="shoppingName">平台公示</div>
-                                </div>
+                            {ShoppingType2.map((ShoppingType) => {
+                                    return (
+                                        <Link to={ShoppingType.link} className="shoppinginfo" key={ShoppingType.key}    >
+                                            <div>
+                                                <div className="shoppingTypeImg">
+                                                    <img src={ShoppingType.img} alt="" />
+                                                </div>
+                                                <div className="shoppingName">{ShoppingType.name}</div>
+                                            </div>
+                                        </Link>
+                                    )
+                                })}
                             </div>
                         </div>
 
@@ -191,78 +183,7 @@ export default function HomeShoppingType() {
                 <div className="shop-scrollbarWarpper">
                     <div className="swiper-scrollbar shop-scrollbar"></div>
                 </div>
-                {/* <span className='swipe'>{mySwiper?mySwiper.progress:null}</span> */}
             </div>
-
-
-            {/* <div className="shoppingTypes">
-                <div className="shoppingType">
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-me="shoppingName">超市</div>
-  
-                            <div classNa</div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-me="shoppingName">超市</div>
-  
-                            <div classNa</div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                    <div className="shoppinginfo">
-                        <div className="shoppingTypeImg">
-                            <img src={type1} alt=""/>
-                            <div className="shoppingName">超市</div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-
         </div>
 
     )

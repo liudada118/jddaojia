@@ -19,10 +19,11 @@ export default function HomeSwiper() {
                 el: '.swiper-paginationNumber',
                 type: 'fraction',
                 clickable: true,
-      
-              renderFraction: function (currentClass, totalClass) {
-              return '<span class="' + currentClass + '"></span>' + ' <span></span> ' + '<span class="' + totalClass + '"></span>'; }
-              },
+
+                renderFraction: function (currentClass, totalClass) {
+                    return '<span class="' + currentClass + '"></span>' + ' <span></span> ' + '<span class="' + totalClass + '"></span>';
+                }
+            },
         })
     }, [])
     return (
@@ -31,15 +32,19 @@ export default function HomeSwiper() {
                 <img src={content} alt="" />
             </div>
             <div className='swiper-number'>
-                <img src={homeSwiperNumber} alt=""/>
+                <img src={homeSwiperNumber} alt="" />
             </div>
             <div className="slider-container slide-home">
                 <div className="swiper-wrapper">
                     <div className="swiper-slide" >
-                        <img src={swiper1} alt=""  />
+                        <div className="homeSwiperImg">
+                            <img src={swiper1} alt="" />
+                        </div>
                     </div>
                     <div className="swiper-slide" >
-                        <img src={swiper2} alt="" />
+                        <div className="homeSwiperImg">
+                            <img src={swiper2} alt="" />
+                        </div>
                     </div>
                 </div>
                 <div className="swiper-pagination swiper-paginationNumber"></div>

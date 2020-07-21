@@ -1,0 +1,53 @@
+.pageTypeSearch{
+    height: 1.173333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pageTypeBack{
+    width: 1.12rem;
+    height: 0.64rem;
+    border-radius: 0 0.32rem 0.32rem 0;
+    background-color: rgba(255, 255, 255, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pageTypeBack img{
+    height: .586667rem;   
+    width: .586667rem;
+}
+.pageTypeName{
+    height: .768rem;
+    font-size: .586667rem;
+    color: #fff;
+    margin-right: .32rem;
+}
+.pageTypeInput{
+    flex: 1;
+    height: .8rem;
+    margin-right: .32rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: .4rem;
+}
+.pageTypeSwiper{
+    color: #d6d6d6;
+    flex: 1;
+    height: .512rem;
+    overflow-y: hidden;
+    vertical-align: bottom;
+}
+.pageTypeSwiper .swiper-slide {
+    position: relative;
+}
+.pageTypeSwiper .swiper-slide span{
+    position: absolute;
+    bottom: 0;
+}
+.pageTypeImg img{
+    width: .426667rem;
+    height: .426667rem;
+    padding-left: .346667rem;
+}

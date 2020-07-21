@@ -1,0 +1,29 @@
+.ProductTypes{
+    height: 2.426667rem;
+    margin-left: .213333rem;
+    margin-right: .213333rem;
+    display: flex;  
+    overflow-y: scroll;
+}
+.ProductTypes::-webkit-scrollbar {
+
+    display:none
+
+}
+.ProductType{
+    flex: 0 0 20%;
+    height: 2.373333rem;
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.ProductTypeImg{
+    width: 1.12rem;
+    height: 1.12rem;
+}
+.ProductTypeImg img{
+    width: 100%; 
+    height: 100%;
+}

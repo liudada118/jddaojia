@@ -5,11 +5,11 @@ import discount3 from '../../../assets/img/discount3.jpg'
 import './index.css'
 export default function HomeMember() {
     return (
-        <div className="discount">
-            <div className="discount-warpper">
-                <div className="discount1"><img src={discount1} alt="" /></div>
-                <div className="discount1"><img src={discount2} alt="" /></div>
-                <div className="discount1"><img src={discount3} alt="" /></div>
+        <div className="homeDiscount">
+            <div className="homeDiscount-warpper">
+                <div className="homeDiscount1"><img src={discount1} alt="" /></div>
+                <div className="homeDiscount1"><img src={discount2} alt="" /></div>
+                <div className="homeDiscount1"><img src={discount3} alt="" /></div>
             </div>
         </div>
     )
