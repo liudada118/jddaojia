@@ -10,6 +10,9 @@
     flex: 1;
     
 }
+.tabBar a{
+    text-decoration: none;
+}
 .tab{
 display: flex;
     align-items: center;

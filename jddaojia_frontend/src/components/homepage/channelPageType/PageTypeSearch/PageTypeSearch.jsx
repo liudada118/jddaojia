@@ -4,17 +4,9 @@ import search from '../../../../assets/img/search.png'
 import './index.css'
 import Swiper from 'swiper';
 import PageTypeArticle from '../PageTypeArticle/PageTypeArticle';
+import TextSwiper from '../../../swiper/textSwiper/TextSwiper'
 export default function PageTypeSearch(props) {
-
-    useEffect(() => {
-        new Swiper('.pageTypeSwiper', {
-            loop: true,
-            autoplay: {
-                delay: 1000,
-            },
-            direction: 'vertical',
-        });
-    })
+    const [swiperName] = useState('pageTypeSwiper')
     return (
             <div className='pageTypeSearch'>
                 <div className="pageTypeBack">
@@ -27,19 +19,13 @@ export default function PageTypeSearch(props) {
                     <div className="pageTypeImg">
                         <img src={search} alt="" />
                     </div>
-                    <div className="slider-container pageTypeSwiper">
-                        <div className="swiper-wrapper">
-                            {
-                                props.props.ChannelPage.pageTypeInput.map((pageType, i) => {
+                    <TextSwiper swiperName={swiperName}>
+                                {props.props.ChannelPage.pageTypeInput.map((pageType, i) => {
                                     return (
-                                        <div className="swiper-slide" key={pageType.name + i} >
-                                            <span>{pageType.name}</span>
-                                        </div>
+                                            <span key={i}>{pageType.name}</span>
                                     )
-                                })
-                            }
-                        </div>
-                    </div>
+                                })}
+                    </TextSwiper>
                 </div>
             </div>
             

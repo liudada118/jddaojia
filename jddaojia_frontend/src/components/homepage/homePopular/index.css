@@ -4,9 +4,27 @@
     display: flex;
     padding-right: .32rem;
     padding-left: .32rem;
+    flex-flow: column;
 }
-.homePopular img{
-    /* flex: 0 0 50%; */
-    width: 4.684267rem;
+.homePopularTypes{
+    width: 9.36rem;
     height: 3.84rem;
+    display: flex;
+}
+.homePopularType {
+    flex: 1;
+}
+.homePopularType img{
+    width: 100%;
+}
+.homePanicBuyings{
+    width: 9.36rem;
+    height: 3.84rem;
+    display: flex;
+}
+.panicBuying {
+    flex: 1;
+}
+.panicBuying img{
+    width: 100%;
 }

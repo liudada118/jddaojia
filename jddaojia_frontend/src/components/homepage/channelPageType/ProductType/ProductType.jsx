@@ -12,22 +12,31 @@ import ProductType7 from '../../../../assets/img/ProductType7.png'
 // import ProductType10 from '../../../../assets/img/ProductType10.png'
 import './index.css'
 import PageTypeArticle from '../PageTypeArticle/PageTypeArticle'
+import { Link } from 'react-router-dom'
 export default function ProductType(props) {
     const [pageType, setPageType] = useState('Featured')
+    const [bigSize , setBigSize] = useState(-1)
     // const {props} = props 
     const changePageType = (type) => {
         setPageType({
             pageType: type
         })
     }
-    console.log(props)
+    const changeTypeSize = (k) =>{
+        setBigSize({
+            bigSize : k
+        })
+    }
+    
     return (
         <div>
             <div className='ProductTypes'>
                 {props.props.ChannelPage.ProductTypes.map((ProductType, i) => {
+                    console.log(bigSize,i)
                     return (
-                        <div className="ProductType" onClick={() => {
+                        <div className={bigSize.bigSize === i ? 'Big ProductType' : 'ProductType'} onClick={() => {
                             changePageType(ProductType.type)
+                            changeTypeSize(i)
                         }} key={ProductType.name + i}>
                             <div className="ProductTypeImg"><img src={ProductType.img} alt="" /></div>
                             <div className="ProductTypeName">{ProductType.name}</div>

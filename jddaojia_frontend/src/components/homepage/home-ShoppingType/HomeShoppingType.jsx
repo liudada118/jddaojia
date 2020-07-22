@@ -24,6 +24,7 @@ import './index.css'
 import Swiper from 'swiper';
 import { useState } from 'react';
 import { shoptypeData } from '../../../store/reducers';
+import TypeSwiper from '../../swiper/typeSwiper/TypeSwiper'
 export default function HomeShoppingType() {
     // console.log(props)
     const [ShoppingType1] = useState([{
@@ -123,68 +124,48 @@ export default function HomeShoppingType() {
         name: '平台公示',
         img: type19
     }])
-    
-    
-    useEffect(() => {
-        new Swiper(".slider-shoppingType", {
-            scrollbar: {
-                el: '.shop-scrollbar',
-            },
-        })
-
-    })
+    const [swiperName] = useState('slider-shoppingType')
+    const [scrollbarName] = useState('shop-scrollbar')
     return (
-
         <div className="homeShoppingType">
             <div className="type">
                 <img src={typebg} alt="" />
             </div>
-            <div className="slider-container slider-shoppingType">
-                <div className="swiper-wrapper">
-                    <div className="swiper-slide" >
-                        <div className="shoppingTypes">
-                            <div className="shoppingType">
-                                {ShoppingType1.map((ShoppingType) => {
-                                    return (
-                                        <Link  to={ShoppingType.link} className="shoppinginfo" key={ShoppingType.key}>
-                                            <div>
-                                                <div className="shoppingTypeImg">
-                                                    <img src={ShoppingType.img} alt="" />
-                                                </div>
-                                                <div className="shoppingName">{ShoppingType.name}</div>
+            <TypeSwiper swiperName={swiperName} scrollbarName={scrollbarName}>
+                <div className="shoppingTypes">
+                    <div className="shoppingType">
+                        {ShoppingType1.map((ShoppingType) => {
+                            return (
+                                <Link to={ShoppingType.link} className="shoppinginfo" key={ShoppingType.key}>
+                                    <div>
+                                        <div className="shoppingTypeImg">
+                                            <img src={ShoppingType.img} alt="" />
+                                        </div>
+                                        <div className="shoppingName">{ShoppingType.name}</div>
+                                    </div>
+                                </Link>
+                            )
+                        })}</div>
+                </div>
+                <div className="shoppingTypes">
+                    <div className="shoppingType">
+                        {
+                            ShoppingType2.map((ShoppingType) => {
+                                return (
+                                    <Link to={ShoppingType.link} className="shoppinginfo" key={ShoppingType.key}    >
+                                        <div>
+                                            <div className="shoppingTypeImg">
+                                                <img src={ShoppingType.img} alt="" />
                                             </div>
-                                        </Link>
-                                    )
-                                })}
-                            </div>
-                        </div>
-
-                    </div>
-                    <div className="swiper-slide" >
-                        <div className="shoppingTypes">
-                            <div className="shoppingType">
-                            {ShoppingType2.map((ShoppingType) => {
-                                    return (
-                                        <Link to={ShoppingType.link} className="shoppinginfo" key={ShoppingType.key}    >
-                                            <div>
-                                                <div className="shoppingTypeImg">
-                                                    <img src={ShoppingType.img} alt="" />
-                                                </div>
-                                                <div className="shoppingName">{ShoppingType.name}</div>
-                                            </div>
-                                        </Link>
-                                    )
-                                })}
-                            </div>
-                        </div>
-
+                                            <div className="shoppingName">{ShoppingType.name}</div>
+                                        </div>
+                                    </Link>
+                                )
+                            })
+                        }
                     </div>
                 </div>
-                <div className="shop-scrollbarWarpper">
-                    <div className="swiper-scrollbar shop-scrollbar"></div>
-                </div>
-            </div>
+            </TypeSwiper>
         </div>
-
     )
 }

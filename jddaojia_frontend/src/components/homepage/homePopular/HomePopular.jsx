@@ -9,13 +9,27 @@ import './index.css'
 export default function HomePopular() {
     return (
         <div className='homePopular'>
-                <img src={PanicBuying} alt=""/>
-                <img src={PanicBuying1} alt=""/>
+            <div className="homePopularTypes">
+                <div className="homePopularType">
+                    <img src={PanicBuying} alt="" />
+                </div>
+                <div className="homePopularType">
+                    <img src={PanicBuying1} alt="" />
+                </div>
+            </div>
             <div className="homePanicBuyings">
-                <div className="panicBuying"></div>
-                <div className="panicBuying"></div>
-                <div className="panicBuying"></div>
-                <div className="panicBuying"></div>
+                <div className="panicBuying">
+                    <img src={PanicBuying2} alt="" />
+                </div>
+                <div className="panicBuying">
+                    <img src={PanicBuying3} alt="" />
+                </div>
+                <div className="panicBuying">
+                    <img src={PanicBuying4} alt="" />
+                </div>
+                <div className="panicBuying">
+                    <img src={PanicBuying5} alt="" />
+                </div>
             </div>
         </div>
     )

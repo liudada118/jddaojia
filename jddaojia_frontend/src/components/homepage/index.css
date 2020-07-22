@@ -3,6 +3,9 @@
     overflow-y: scroll;
     overflow-x: hidden;
 }
+.homeMain::-webkit-scrollbar {
+    display:none
+}
 .homeTop{
     display: flex;
 }
