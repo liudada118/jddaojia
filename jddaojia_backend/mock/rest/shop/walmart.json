@@ -1,0 +1,450 @@
+{
+    "shopImg": "https://img30.360buyimg.com/vendersettle/jfs/t1/104763/10/17095/195874/5e83ecc2Ec39ed4d9/aaf4060a10ac1cc5.png",
+    "shopName": "沃尔玛-新建礼步湖大道店",
+    "shopDelivery": "达达快送",
+    "shopDeliveryTime": "60分钟",
+    "shopDeliveryPrice": "基础运费¥8.5",
+    "shopVip": "https://img30.360buyimg.com/mobilecms/jfs/t1/139916/31/1965/45229/5efef499E901e3817/8c1286be720fe4bd.gif",
+    "shopCouponTitle": "返礼",
+    "shopCouponInfo": "订单满69，返89-20券，限2w份/天",
+    "shopCouponNumber": "31种优惠",
+    "foodTypes": [
+        {
+            "name": "首页",
+            "type": "homePage"
+        },
+        {
+            "name": "全部商品",
+            "type": "allFood"
+        },
+        {
+            "name": "省运费",
+            "type": "SaveFreight"
+        }
+    ],
+    "shopScrollWraps": [
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/103290/23/1135/7774/5dba411eE8deabef2/76a567377014cb4a.png",
+            "shopScrollName": "冰爽一夏"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/87031/4/14016/6340/5e5f44cdE218639c2/e35c9b921efd8449.png",
+            "shopScrollName": "88大牌厂商周"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/2403/13/14176/24035/5bdac8b2Eec06154e/a9efeea569498031.png",
+            "shopScrollName": "新鲜水果"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/3332/23/14256/23134/5bdac8b2Eb38036e0/c3d01517d03cc628.png",
+            "shopScrollName": "时令蔬菜"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/10753/22/517/18784/5bdacb18E7edff27d/f3ccc7b45a84bbe4.png",
+            "shopScrollName": "粮油调味"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/7874/5/4454/23875/5bdacb73E9aa6f520/18fd83de67739467.png",
+            "shopScrollName": "肉蛋家禽"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/6975/14/4889/20654/5bdac94dE7ee6ad91/3917605eac0c130a.png",
+            "shopScrollName": "水产海鲜"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/4912/1/14341/13668/5bdacb2bEd0d64659/7d4473d283f450d1.png",
+            "shopScrollName": "牛奶酸奶"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/8296/34/4513/14862/5bdacb2bE215b42f0/e26dc8f2e9e508fb.png",
+            "shopScrollName": "冷藏冷冻"
+        },
+        {
+            "shopScrollImg": "https://img30.360buyimg.com/o2o/s120x120_jfs/t1/7639/4/13312/16266/5c3efe9bEad0630ff/3eaec30e37c00cab.png",
+            "shopScrollName": "浓情中秋"
+        }
+    ],
+    "shopBoxBanner": [
+        {
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/121648/11/7725/206704/5f17ec30E5e76f367/fe9903247e66dcf7.jpg"
+        },
+        {
+            "img": "https://img30.360buyimg.com/mobilecms/jfs/t1/115900/21/12987/206268/5f17ec09E5d42a992/1db8b63213f87d0f.jpg"
+        }
+    ],
+    "big": "新人专享",
+    "small": "多重优惠叠加使用",
+    "shopFloorTitWrap": [
+        {
+            "DiscountPrice": "20",
+            "conditionPrice": "满79可用",
+            "shopType": "沃尔玛新人专享",
+            "type": "新人专享",
+            "effectiveTime": "领取后当日有效",
+            "isReceive": "领取",
+            "noReceive": "未领取"
+        },
+        {
+            "DiscountPrice": "20",
+            "conditionPrice": "满79可用",
+            "shopType": "沃尔玛新人专享",
+            "type": "新人专享",
+            "effectiveTime": "领取后当日有效",
+            "isReceive": "领取",
+            "noReceive": "未领取"
+        },
+        {
+            "DiscountPrice": "20",
+            "conditionPrice": "满79可用",
+            "shopType": "沃尔玛新人专享",
+            "type": "新人专享",
+            "effectiveTime": "领取后当日有效",
+            "isReceive": "领取",
+            "noReceive": "未领取"
+        }
+    ],
+    "foodSort" : ["默认排序","价格升序","价格降序"],
+    "ShopPanicBuying": [
+        {
+            "name": "爆品抢购",
+            "food": [
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                }
+            ]
+        },
+        {
+            "name": "满额促销",
+            "food": [
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                }
+            ]
+        },
+        {
+            "name": "多买优惠",
+            "food": [
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                },
+                {
+                    "img": "https://img30.360buyimg.com/n6/jfs/t1/140441/18/2453/589207/5f047e9eE1752848f/e568532c4feded4b.png",
+                    "name": "梦龙 松露巧克力口味冰淇淋 260g（4支 ）",
+                    "nowPrice": "26.8",
+                    "BeforePrice": "39"
+                }
+            ]
+        }
+    ],
+    "foodList" : [{
+        "foodtypes" : ["水饺","纸巾","优惠"],
+        "type" : "秒杀",
+        "food" : [{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/114110/16/11818/134468/5f047514Eee60a841/7946b3e606c2125e.jpg",
+            "name": "思念（sinian） 虾仁玉米水饺 480g（32只）",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费",
+            "type" : "水饺"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/130932/28/3960/168638/5f048b8dEfe375579/b84caaf0bf0d16e5.jpg",
+            "name": "维他 冰爽柠檬茶（柠檬味茶饮料） 250ml*6盒",
+            "nowPrice": "9.9",
+            "BeforePrice": "13.5",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费",
+            "type" : "优惠"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/132354/29/3900/45063/5f048f7fE258daa1d/8447590b475c94ea.jpg",
+            "name": "洁柔（C&S） 纸面巾（Face软抽） 195*133mm/张 三层 40抽",
+            "nowPrice": "1",
+            "BeforePrice": "3",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费",
+            "type" : "纸巾"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/122585/9/7766/250295/5f17f61eE43171143/200cd8eb5b3d06e0.jpg",
+            "name": "国产红心火龙果 约500g *",
+            "nowPrice": "6.8",
+            "BeforePrice": "7.8",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费",
+            "type" : "优惠"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/137259/4/4879/170123/5f1558c8E8b511917/b1f16c9db899137c.jpg",
+            "name": "沃集鲜/Marketside 原味麻薯 8个/盒",
+            "nowPrice": "27.8",
+            "BeforePrice": "33",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费",
+            "type" : "优惠"
+        }]
+    },{
+        "type" : "冰爽",
+        "food" : [{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/146761/26/2398/144778/5f047d7cE7c2ea941/5d8b0541fad1336c.jpg",
+            "name": "和路雪 可爱多棒棒花生碎+硬心巧克力风味棒+香草口味冰淇淋 450g（6支装）",
+            "nowPrice": "16.8",
+            "BeforePrice": "22",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/125001/19/6544/121242/5f046fb3E94817378/048d19d5a73e8a86.jpg",
+            "name": "旺旺 碎冰冰 果味饮料 624ml（8支）",
+            "nowPrice": "12.8",
+            "BeforePrice": "16",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/150042/12/2251/128342/5f048efeE724c0ad6/f7418ef5c22350ec.jpg",
+            "name": "和路雪 可爱多棒棒白巧克力风味脆皮+牛轧糖口味冰淇淋 462g（77g*6支）",
+            "nowPrice": "15.5",
+            "BeforePrice": "22",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/129917/7/3807/185323/5f0484c4E8d13e9a3/35555addbe73df50.jpg",
+            "name": "伊利 巧乐兹抹茶芝士口味脆筒冰淇淋 73g*6",
+            "nowPrice": "14.8",
+            "BeforePrice": "17",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/113631/21/11877/149512/5f048090E672c5d6c/304bcdc04c9bc02e.jpg",
+            "name": "伊利 小布丁奶油口味雪糕 48g*18支",
+            "nowPrice": "22.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        }]
+    },{
+        "type" : "水果",
+        "food" : [{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/115987/22/11963/151537/5f048876E71e5a4c1/007ec1788e7e2811.jpg",
+            "name": "沃集鲜/Marketside (精品)盒装水晶红富士 4粒 约800-900g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+            
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/135596/15/3936/136323/5f046643E882a38e8/091cbc8fa27afcd0.jpg",
+            "name": "国产蓝莓 约125g (12mm-14mm) *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/148744/33/2346/223279/5f04827bE21c9e493/1318eb8eef155a8c.jpg",
+            "name": "佳沛绿奇异果6个盒装 约500g-600g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/138636/21/2374/242199/5f046648Edf44bbb1/13903df0c68018b0.jpg",
+            "name": "进口菠萝1个 约1kg（暂不提供切片服务） *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/148624/25/3533/125585/5f17f61fEa2b895c8/102e8b532d97dff2.jpg",
+            "name": "盒装水蜜桃 2 粒 约320g",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        }]
+    },{
+        "type" : "蔬菜",
+        "food" : [{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/113278/33/12513/175390/5f0c2147Ea31ac1da/962defabb3c4e534.jpg",
+            "name": "包装菠菜 约300g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/140371/34/2816/188243/5f0c2148E555e95ee/7c918d7cbb007e0f.jpg",
+            "name": "包装生菜 约300g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/144022/37/2363/158322/5f044eabEb6c2c3e6/026d9bf5057f0dca.jpg",
+            "name": "包装空心菜 约300g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/120283/35/7237/184342/5f0ed30aE96b97ab6/b622067d2f8d143f.jpg",
+            "name": "包装娃娃菜 约400g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        },{
+            "img": "https://img30.360buyimg.com/n1//jfs/t1/146935/16/1290/164228/5ef17cfdEb7cbcaef/fe3aa3e4822c5be3.jpg",
+            "name": "包装上海青 约300g *",
+            "nowPrice": "26.8",
+            "BeforePrice": "39",
+            "number" : 0,
+            "monthlySale" : 77,
+            "praise" : 97,
+            "discount1" : "减1元运费"
+        }]
+    }]
+}

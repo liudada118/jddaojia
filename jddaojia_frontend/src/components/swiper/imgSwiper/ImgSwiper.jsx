@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Swiper from 'swiper';
 import "swiper/css/swiper.min.css";
 export default function ImgSwiper(props) {
-    console.log(props)
     useEffect(() => {
         new Swiper(`.${props.swiperName}`, {
             loop: true,
@@ -28,7 +27,7 @@ export default function ImgSwiper(props) {
                     </div>)
                 })}
             </div>
-            <div className={`swiper-pagination ${props.paginationName}`}></div>
+            <div className={` ${props.paginationName}`}></div>
         </div>
     )
 }

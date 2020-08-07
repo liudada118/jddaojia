@@ -1,0 +1,81 @@
+
+.shop-search{
+    height: 1.066667rem;
+    padding: .133333rem .266667rem;
+    display: flex;
+}
+.shop-home-search{
+    padding-left: .72rem;
+    height: .8rem;
+    /* width: 8.213333rem; */
+    line-height: .8rem;
+    display: block;
+    color: #555;
+
+}
+.shop-search-wrap{
+    position: relative;
+    width: 8.213333rem;
+    height: .8rem;
+    background-color: #f4f4f4;
+    border-radius: .4rem; 
+}
+.shop-search-wrap a {
+        text-decoration: none;
+}
+.shop-search-wrap span{
+    width: 8.213333rem;
+    height: .8rem;
+    font-size: .373333rem;
+}
+.search-iconfont{
+    width: .32rem;
+    height: .32rem;
+}
+.shop-search-wrap .search-iconfont{
+    position: absolute;
+    top: 0;
+    /* font-size:  .48rem; */
+    width: .72rem;
+    height: .8rem;
+    
+}
+.search-iconfont .iconfont{
+    font-size:  .48rem;display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.shopGetCoupons{
+    width: 1.253333rem;
+    height: .8rem;
+    display: flex;
+    justify-content:    right ;
+    align-items: center;
+    position: relative;
+}
+.GetCoupon{
+    height: .586667rem;
+    width: 1.013333rem;
+    background-color: #ff543d;
+    border-radius: .08rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftGetCoupons{
+    position: absolute;
+    width: .213333rem;
+    height: .213333rem;
+    background-color: #fff;
+    left: -0.106667rem;
+    border-radius: 50%;
+}
+.rightGetCoupons{
+    position: absolute;
+    width: .213333rem;
+    height: .213333rem;
+    background-color: #fff;
+    right: .133333rem;
+    border-radius: 50%;
+}

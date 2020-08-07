@@ -14,7 +14,6 @@ export default function ChannelPageType(props) {
                 })
             })
     }, [])
-    console.log('+++++++++++')
     return (
         <div>
             {ChannelPage == ''?<Loading />:<div className='PageTypeSearchs'>

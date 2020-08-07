@@ -1,0 +1,27 @@
+.ShopPanicInfo{
+    padding: .4rem 0 .4rem .266667rem;
+}
+.ShopPanicFoods{
+    margin: 0 .266667rem;
+    padding: .266667rem .266667rem 0;
+}
+.ShopPanicFood{
+    display: inline-block;
+    width: calc((100% - .8rem) /3);
+    height: 5.226667rem;
+    margin-right: .266667rem;
+}
+.shopPanicImg{
+    height: 2.8rem;
+}
+.shopPanicImg img{
+    height: 100%;
+}
+.ShopPanicFoodInfo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow:hidden;
+    -webkit-box-orient: vertical;
+}

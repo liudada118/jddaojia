@@ -1,0 +1,3 @@
+export const FEHCH_SHOP_DATA = 'FEHCH_SHOP_DATA'
+export const FOOD_NUMBER_ADD = 'FOOD_NUMBER_ADD'
+export const FOOD_NUMBER_SUB = 'FOOD_NUMBER_SUB'

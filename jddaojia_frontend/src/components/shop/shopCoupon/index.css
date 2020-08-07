@@ -1,0 +1,38 @@
+
+.shop-box-product{
+    padding: .4rem 0 .4rem .266667rem;
+        background: linear-gradient(rgb(255, 245, 216), rgb(248, 248, 248));
+}
+.shop-floor-tit{
+    display: flex;
+    padding: .4rem 0 .4rem .266667rem;
+}
+.shop-icon-info-big{
+    font-size: .48rem;
+}
+.shop-floor-tit-wrap{
+    overflow-y: scroll;
+    padding-left: .266667rem;
+}
+.shop-floor-tit-wrap::-webkit-scrollbar{
+    display: none;
+}
+.shop-index-coupon-item{
+    margin-top: .266667rem;
+    margin-right: .266667rem;
+    padding-bottom: .266667rem;
+}
+.shop-floor-tit-wrap{
+    display: flex;
+}
+.shop-index-coupon-items{
+    flex: 0 0 90%;
+    display: flex;
+}
+.shop-index-coupon-item{
+    flex: 0 0 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}

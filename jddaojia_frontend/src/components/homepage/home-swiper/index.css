@@ -1,5 +1,7 @@
 .home-swiper{
     display: flex;
+    width: 10rem;
+    height: 3.733333rem;
 }
 .content{
     width: 100%;
@@ -25,7 +27,12 @@
     /* padding-left: 0.29rem;
     padding-right: 0.29rem; */
 }
-
+.slide-home{
+    width: 100%;
+}
+.slide-home .swiper-slide{
+    width: 100% !important;
+}
 .slide-home .swiper-slide{
     display: flex;
     justify-content: center;
@@ -49,23 +56,25 @@
 } */
 .home-swiper{
     position: relative;
+    width: 100% ;
 }
  .swiper-paginationNumber{
     width: 0.65rem !important;
     left: 0.65rem !important;
-    
 }
 .swiper-paginationNumber span{
     color: #fff;
     font-size: 12px;
 }
 .swiper-paginationNumber .swiper-pagination-current{
-    position: relative;
-    right: 3px;
-    bottom: 1px;
+    position: absolute;
+    left: .666667rem;
+    bottom: .293333rem;
+    z-index: 5;
 }
 .swiper-paginationNumber .swiper-pagination-total{
-    position: relative;
-    left:  2px;
-    bottom: 1px;
+    position: absolute;
+    left:  1.066667rem;
+    bottom: .293333rem;
+    z-index: 5;
 }

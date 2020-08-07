@@ -1,0 +1,14 @@
+
+.shop-tab-bar-list{
+    padding: 0 .266667rem ;
+    height:  1.056rem;
+    /* display: flex; */
+}
+.shop-tab-bar-list span {
+    font-size: .48rem;
+    margin-right: .8rem;
+    padding: .266667rem 0 ;
+}
+.bottomLight{
+    border-bottom: chartreuse solid .053333rem;
+}

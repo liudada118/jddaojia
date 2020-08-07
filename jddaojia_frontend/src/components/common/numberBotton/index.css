@@ -1,0 +1,31 @@
+.subFoodNumber{
+    width: .72rem;
+    height: .72rem;  
+    display: inline-block;
+}
+.subFoodNumber img{
+    width: 100%;
+    height: 100%;
+}
+.addFoodNumber{
+    display: inline-block;
+    /* position: absolute; */
+    width: .72rem;
+    height: .72rem;
+    /* bottom: 0;
+    right: .133333rem; */
+}
+.foodnum{
+    display: inline-block;
+    font-size: .426667rem;
+    vertical-align: -webkit-baseline-middle;
+}
+.foodNumber img{
+    width: 100%;
+    height: 100%;
+}
+.foodNumber{
+    position: absolute;
+    bottom: 0;
+    right: .133333rem;
+}

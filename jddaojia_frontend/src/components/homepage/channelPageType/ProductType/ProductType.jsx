@@ -32,7 +32,6 @@ export default function ProductType(props) {
         <div>
             <div className='ProductTypes'>
                 {props.props.ChannelPage.ProductTypes.map((ProductType, i) => {
-                    console.log(bigSize,i)
                     return (
                         <div className={bigSize.bigSize === i ? 'Big ProductType' : 'ProductType'} onClick={() => {
                             changePageType(ProductType.type)

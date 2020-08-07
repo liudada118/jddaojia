@@ -1,0 +1,75 @@
+.ShopFood{
+    display: flex;
+}
+.foodTypeName{
+    padding: .053333rem .32rem;
+    height: 1.226667rem;
+    width: 1.493333rem;
+    font-size: .373333rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopShopFood{
+    padding: .426667rem .266667rem;
+    /* height: ; */
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+.shopShopFood-img{
+    display: inline-block;
+    width: 2.133333rem;
+    height: 2.133333rem;
+}
+.shopShopFood-img img{
+    width: 100%;
+    height: 100%;
+}
+.shopFoodBigList{
+    height: 16rem;
+    overflow-y: scroll;
+}
+.shopFoodBigList::-webkit-scrollbar{
+    display: none;
+}
+.foodsort{
+    display: inline-flex;
+    padding-right: .133333rem;
+}
+.foodsort i{
+    font-size: .32rem;
+    display: flex;
+    align-items: center;
+}
+.freeShipping{
+    display: inline-block;
+}
+.shopfooinfo{
+    display: inline-block;
+    width: 4.72rem;
+    vertical-align: top;
+    margin-left: .213333rem;
+}
+.shopShopFood-name{
+    font-size: .426667rem;
+    font-weight: bold;
+    color: #333;
+}
+.shopShopFood-nowPrice{
+    color: #ff1e19;
+    font-size: .48rem;
+}
+.shopShopFood-BeforePrice{
+    color: #999999;
+    text-decoration-line: line-through;
+}
+.shopSales span{
+    margin-right: .133333rem;
+    color: #666;
+}
+.shopFoodDiscount{
+    display: inline-block;
+    border-radius: .026667rem .106667rem .026667rem .106667rem;
+    background-color: #e19b2f;
+    color: #fff;
+}
